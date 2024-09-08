@@ -1,0 +1,115 @@
+
+.todayWaterList {
+  position: relative;
+  background-color: #ECF2FF;
+  border-radius: 8px;
+  max-width: 280px;
+  margin: 0 auto;
+  height: 264px;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 24px;
+}
+
+.title {
+  font-size: 24px;
+  color: #2F2F2F;
+  position: sticky;
+  top: 0;
+  background-color: #ECF2FF;
+  margin: 0;
+  padding-top: 16px;
+  z-index: 1;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #D7E3FF;
+  height: 26px;
+}
+
+.amount {
+  font-size: 18px;
+  color: #407BFF;
+  margin-right: 16px;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.btn {
+  width: 18px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.iconPencil {
+  width: 16px;
+  height: 16px;
+  color: #9EBBFF;
+  background-color: #ECF2FF;
+  border-radius: none;  
+
+}
+
+.iconDelete {
+  color: #EF5050;
+}
+
+.iconGlass {
+  width: 36px;
+  height: 36px;
+  color: #407BFF;
+  margin-right: 12px;
+  margin-top: 6px;
+}
+
+.addWaterButton {
+  font-size: 16px;
+  position: sticky;
+  bottom: 0.2px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #ECF2FF;
+  color: #407BFF;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
+.addWaterButton:hover {
+  background-color: #ECF2FF;
+}
+
+@media screen and (min-width: 768px) {
+  .todayWaterList {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .item {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
