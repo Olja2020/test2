@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/project-successful-minds-07/',
+  base: '/test2/',
   build: {
     sourcemap: true,
     minify: 'esbuild', // Используйте встроенную минификацию

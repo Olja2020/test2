@@ -1,0 +1,29 @@
+[
+  { 
+    "id": 1,
+    "name": "Dicentra", 
+    "description": "Dicentra is flower_shop.", 
+    "href": "https://dicentra.ua/",
+    "icon": "https://freemiumicons.com/wp-content/uploads/2022/08/magnolia-flower-icon-1.svg",
+    "lat": 50.4299540620848, 
+    "lng": 30.48681073538455 
+  },
+  { 
+    "id": 2,
+    "name": "Donpion", 
+    "description": "Donpion is flower_shop.", 
+    "href": "https://donpion.ua/", 
+    "icon": "https://freemiumicons.com/wp-content/uploads/2022/10/spring-flower-icon.svg",
+    "lat": 50.3967261782231, 
+    "lng": 30.478711089256752  
+  },
+  { 
+    "id": 3,
+    "name": "Floristik", 
+    "description": "Floristik is flower_shop.", 
+    "href": "https://floristik.ua/", 
+    "icon": "https://freemiumicons.com/wp-content/uploads/2022/08/sakura-flower-icon-1.svg" ,
+    "lat": 50.41225870265747, 
+    "lng": 30.522155121854574  
+  }
+]

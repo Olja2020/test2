@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "idShop": 1,
+    "name": "Flowers_one",
+    "price": 2.4,
+    "discount": 5,
+    "imageUrl": "public/images/flowers/flora_1.jpeg"
+  },
+  {
+    "id": 2,
+    "idShop": 2,
+    "name": "Flowers_two",
+    "price": 2.34,
+    "discount": 2,
+    "imageUrl": "public/images/flowers/flora_2.jpeg"
+  },
+  {
+    "id": 3,
+    "idShop": 3,
+    "name": "Flowers_three",
+    "price": 2.17,
+    "discount": 1,
+    "imageUrl": "public/images/flowers/flora_3.jpeg"
+  }
+  
+]
